@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Montserrat", serif !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.ant-layout-sider{
+  height: 100vh !important;
+}
+.ant-btn-icon{
+  width: 25px !important;
+}
+.logo{
+  
+  text-align: center !important;
+  font-size: 35px !important;
+}
+
+.logo h1{
+  color: white !important;
+}
+.ant-layout-content{
+  margin: 0 !important;
+  padding: 10px !important;
+}
+
+.sweet-loading{
+  position: fixed !important;
+  top: 30% !important;
+  height: 100% !important;
+  width: 100% !important;
+  z-index: 9999;
+}
+
+.flex{
+  display: flex !important;
+  align-items: center !important;
+}
+p{
+  font-weight: 500 !important;
+  margin: 2px !important;
+  padding: 2px !important;
+  font-size: 17px !important;
+}
+
+.bs{
+  box-shadow:rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;;
+}
+
+.job-div{
+  border-radius: 15px !important;
+}
+
+/* .header-button{
+  background-color: !important; 
+} */
+
+button{
+  background-color: #001529 !important;
+  color: white !important;
+}
+
+.login{
+  padding-top: 150px;
+}
+
+input{
+  border:  1px solid #001529 !important;
+  box-shadow: none !important;
+}
+
+.ant-message{
+  z-index: 9999 !important;
+}
+
+.ant-btn{
+  height: 30px !important;
+}
+
+.user-name{
+  margin-right: 20px !important;
+}
